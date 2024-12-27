@@ -4,11 +4,6 @@ import shutil
 
 # Specify the folder to organize
 
-# folder_to_organize = "C:/Users/ksrdrel/Desktop/DISTRACTIONS/series/4"
-# folder_to_organize = r"C:\Users\ksrdrel\Desktop\DISTRACTIONS\series\4"
-
-# C:\Users\ksrdrel\Desktop\DISTRACTIONS\series\1
-
 folder_to_organize = input("Please enter the path of the folder to organize: ")
 
 folder_to_organize = folder_to_organize
