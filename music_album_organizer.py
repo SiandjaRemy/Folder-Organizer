@@ -10,22 +10,21 @@ folder_to_organize = folder_to_organize
 
 # Define the categories and their respective file extensions
 # Feel free to modify this dictionary or add the extenstions you want
-# Commented some items cause not of need right now
 categories = {
     'Videos': ['.mp4', '.mkv', '.mov', '.avi', '.flv', '.wmv', '.mpg', '.3gp', '.webm', '.ogv', '.m4v'],
     'Audio': ['.mp3', '.wav', '.ogg', '.flac', '.aac', '.wma', '.m4a'],
     'Images': ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.webp', '.svg', '.ico'],
     'Documents': ['.doc', '.docx', '.pdf', '.txt', '.rtf', '.odt', '.xls', '.xlsx', '.ppt', '.pptx', '.csv'],
-    # 'Archives': ['.zip', '.rar', '.tar', '.gz', '.7z', '.bz2', '.xz'],
-    # 'Code': ['.py', '.js', '.html', '.css', '.java', '.cpp', '.c', '.php', '.rb', '.swift', '.go', '.json', '.xml', '.sql'],
-    # 'Executables': ['.exe', '.app', '.dmg', '.msi', '.bat', '.sh', '.bin'],
-    # 'Fonts': ['.ttf', '.otf', '.woff', '.woff2'],
-    # 'CAD': ['.dwg', '.dxf'],
-    # '3D Models': ['.obj', '.stl', '.fbx', '.blend']
+    'Archives': ['.zip', '.rar', '.tar', '.gz', '.7z', '.bz2', '.xz'],
+    'Code': ['.py', '.js', '.html', '.css', '.java', '.cpp', '.c', '.php', '.rb', '.swift', '.go', '.json', '.xml', '.sql'],
+    'Executables': ['.exe', '.app', '.dmg', '.msi', '.bat', '.sh', '.bin'],
+    'Fonts': ['.ttf', '.otf', '.woff', '.woff2'],
+    'CAD': ['.dwg', '.dxf'],
+    '3D Models': ['.obj', '.stl', '.fbx', '.blend']
 }
 
 
-def organize_files():
+def organize_album():
 
     # Create folders for each category if they do not exist
     for category in categories.keys():
@@ -56,6 +55,6 @@ def organize_files():
 
 
 # Call the function to execute the organization
-organize_files()
+organize_album()
 
 print(folder_to_organize)
